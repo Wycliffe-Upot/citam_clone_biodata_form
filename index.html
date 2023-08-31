@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CITAM STAFF RECRUITMENT BIO-DATA FORM</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css"/>
+    <script src="style.js"></script>
+    <div class="logo">
+    <img src="citam_logo.png" alt="citam logo" class="center"/>
+    </div>
+  </head>
+    <body>
+       <h1 class="heading1">BIO-DATA FORM FOR TEACHERS</h1>
+        <div class="photo">
+          <label for="photo"><strong>Upload your passport photo</strong></label>
+          <input type="file" id="photo" name="photo">
+        </div>
+        
+        <h2 id="strand">POSITION APPLIED FOR:</h2>
+            <p id="bold"><em>Please tick one:</em></p>
+            <div class="checkbox1">
+              <div class="formgroup">
+                <input type="checkbox" id="pre-school">
+                <label for="pre-school">Pre-School</label>
+              </div>
+              <div class="formgroup">
+                <input type="checkbox" id="lower-primary">
+                <label for="lower-primary">Lower Primary</label>
+              </div>
+              <div class="formgroup">
+                <input type="checkbox" id="upper-primary">
+                <label for="upper-primary">Upper Primary</label>
+              </div>
+              <div class="formgroup">
+                <input type="checkbox" id="junior-high">
+                <label for="junior-high">Junior High</label>
+              </div>
+                <div class="formgroup">
+                <input type="checkbox" id="seniorhigh">
+                <label for="seniorhigh">Senior High</label>
+              </div>
+              
+          </div>
+          <fieldset>
+          <legend> <h2>A. PERSONAL DETAILS:</h2></legend>
+          <p>
+            <label>
+              1. Salutation
+            
+            <select name="Salutation" class="number">
+              <div class="salutation">
+              <option>Mr</option>
+              <option>Mrs</option>
+              <option>Ms</option>
+              <option>Dr</option>
+              <option>Eng</option>
+              <option>Prof</option>
+            </div>
+            </select>
+            </label>
+          </p>
+          <p>
+                <label for="fname">2. First Name:</label>
+                  <input type="text" id="fname" name="fname" size="10" placeholder="Your First Name" required> &nbsp &nbsp
+
+                <label for="mname">Middle Name:</label>
+                  <input type="text" id="mname" name="mname" size="10" placeholder="Middle Name" required> &nbsp &nbsp
+
+                <label for="lname">Last Name:</label>
+                  <input type="text" id="lname" name="lname" size="10" placeholder="Last Name" required>
+          </p>  
+                
+        <p>3. <label for="id">ID Number:</label>&nbsp;<input type="number" id="id" name="id" class="number" size="10" required>&nbsp;&nbsp; <strong>OR</strong>  
+          <label for="passport">Passport Number:</label>&nbsp;<input type="number" class="number" size="10" id="passport" name="passport" placeholder="N/A">&nbsp;&nbsp; <strong>OR</strong> 
+          <label for="socialn">Social Security/Huduma Number:</label>&nbsp;<input type="number" size="10" class="number" id="socialn" name="socialn" placeholder="N/A"></p>
+        
+    <p>4. Postal Address/PO BOX:<input type="number" class="number" placeholder="123456">&nbsp;
+      <label for="posta">Town</label>
+    <input type="text" id="posta" size="10" placeholder="Nairobi">
+    <br>
+    <p>5. Phone Number:<input type="tel" id="phone" class="number" name="phone" placeholder="0712 345 648" required></p>
+
+      <p>6. Marrital Status:</p>
+            <div class="checkbox1">
+              <div class="formgroup">
+                <input type="checkbox" id="single">
+                <label for="single">Single</label>
+              </div>
+              <div class="formgroup">
+                <input type="checkbox" id="married">
+                <label for="married">Married</label>
+              </div>
+              <div class="formgroup">
+                <input type="checkbox" id="divorced">
+                <label for="divorced">Divorced</label>
+              </div>
+              <div class="formgroup">
+                <input type="checkbox" id="widowed">
+                <label for="widowed">Widowed</label>
+              </div>
+              </div>
+    
+    <p>7. Gender:</p>
+    <div class="checkbox1">
+      <div class="formgroup">
+        <input type="checkbox" id="male">
+        <label for="male">Male</label>
+      </div>
+      <div class="formgroup">
+        <input type="checkbox" id="female">
+        <label for="female">Female</label>
+      </div>
+      <div class="formgroup">
+        <input type="checkbox" id="transgender">
+        <label for="transgender">Transgender</label>
+      </div>
+    </div>
+      
+    8. <label for="nationality">Nationality:</label>&nbsp; &nbsp;
+    <select name="nationality" id="nationality" class="number" >
+      <option value="kenyan">Kenyan</option>
+      <option value="ugandan">Ugandan</option>
+      <option value="tanzanian">Tanzanian</option>
+      <option value="ethiopian">Ethiopian</option>
+      <option value="rwandan">Rwandan</option>
+      <option value="congolese">Conolese</option>
+      <option value="somali">Somali</option></select>
+    <br><br>
+    9. <label for="birth">Date of Birth:</label>&nbsp; &nbsp;<input type="date" id="birth" placeholder="dd/mm/yy" required class="number" >&nbsp; &nbsp;
+    <label for="age">Age:</label>&nbsp; &nbsp;<input type="number" id="age" class="number" size="2" name="age" min="18" max="60" required>&nbsp; &nbsp;
+    
+    <br><br>
+    
+    10. If Married, Name of Spouse(As Per ID):&nbsp; &nbsp;<label for fname>First Name:</label><input type="text" id="fname" name="fname" size="10">&nbsp; &nbsp;<label for="mname">Middle Name:</label><input type="text" size="10" id="mname" name="mname">&nbsp; &nbsp;<label for="lname">Last Name:</label><input type="text" id="lname" size="10" name="lname">
+    <br>
+    11. Spouse's Telephone Number:&nbsp; &nbsp;<input type="tel" id="tel" name="tel" class="number" maxlength="10" size="10" placeholder="0700 000 000" required><br><br>
+     <p>12. If Married, State The Number Of Children And Their Ages:</p>
+
+     <div class="children">
+      <table>
+        <tr>
+          <td>NAME OF THE CHILD</td>
+          <td>DATE OF BIRTH</td>
+          <td>AGE IN YEARS</td>
+          <td>AGE IN MONTHS</td>
+        </tr>
+        <tr>
+          <td>1.</td>
+          <td>00/00/0000</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>00/00/0000</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>00/00/0000</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td>00/00/0000</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>5.</td>
+          <td>00/00/0000</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>6.</td>
+          <td>00/00/0000</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>7.</td>
+          <td>00/00/0000</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>8.</td>
+          <td>00/00/0000</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>9.</td>
+          <td>00/00/0000</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>10.</td>
+          <td>00/00/0000</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+      </table>
+    </div>
+    <label for="nationality">13. Next of kin:</label>&nbsp; &nbsp;
+    <select name="nationality" id="nationality" class="number">
+      <option value="spouse">spouse</option>
+      <option value="son">Son</option>
+      <option value="daughter">Daughter</option>
+      <option value="parent">Parent</option>
+      <option value="sister">Sister</option>
+      <option value="brother">Brother</option>
+      <option value="others">Others</option></select>
+      <br><br>
+     14. Next of Kin's name:&nbsp;
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="fname" size="10">&nbsp; &nbsp;
+      <label for="mname">Middle Name:</label>
+      <input type="text" id="mname" name="mname" size="10">&nbsp; &nbsp;
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="lname" size="10">&nbsp;&nbsp;
+     <br><br>
+     15. Their phone No:&nbsp;
+      <input type="tel" id="tel" name="tel" maxlength="10" class="number" size="10"  placeholder="0712 234 567" size="10">&nbsp;&nbsp;
+      <br><br><br>
+      <label for="email">16. Their email:</label>
+      <input type="email" id="email" name="email" placeholder="emailaddress@gmail.com">
+      <br><br>
+    17. Describe your current medical and physical condition:&nbsp;&nbsp;<input type="textarea" id="textarea" name="textarea" placeholder="Describe here..." required class="loan">
+    <br>
+    <p>18. Do you have any financial commitments to a financial institution or your present employer?</p>
+    <div class="checkbox1">
+      <div class="formgroup">
+        <input type="checkbox" id="yes">
+        <label for="yes">Yes</label>
+      </div>
+      <div class="formgroup">
+        <input type="checkbox" id="no">
+        <label for="no">No</label>
+      </div>
+      </div>
+    &nbsp;&nbsp; If yes, state nature and extent:<input type="textarea" class="loan" placeholder="Describe the nature of the financial commitment...">
+    <br>
+    <br>
+    
+      <br><br>
+    19. Do you have any relative who is currently working at CITAM? 
+    <div class="checkbox1">
+      <div class="formgroup">
+        <input type="checkbox" id="y">
+        <label for="y">Yes</label>
+      </div>
+      <div class="formgroup">
+        <input type="checkbox" id="n">
+        <label for="n">No</label>
+      </div>
+      </div>
+    <em>If yes state relationship:&nbsp;</em>
+    <input type="textarea" id="state" name="state" class="number" placeholder="brother,parent..."> 
+    <br><br> 
+    <em>NB: Relatives include: Husband, Wife, Parent, Child, Grandparent, Grandchild, brother, sister, niece, nephew, first cousin and any in-laws.</em>
+    </fieldset> 
+    <br><br>
+    <fieldset> 
+      <legend><h2>B. REFEREES:</h2></legend>
+      
+      <p>20. (i) <em class="ref">Your Professional Referee:</em></p>
+      <div class="children">
+        <table>
+          <tr>
+            <td>NAME OF THE REFEREE</td>
+            <td>NAME OF THE INSTITUTION</td>
+            <td>POSITION HELD</td>
+            <td>TELEPHONE NUMBER</td>
+          </tr>
+          <tr>
+            <td>1.</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>4.</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>5.</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+      <br><br>
+      <p>(ii) <em class="ref">Your Spriritual Referee:</em></p>
+      <p>21. Spriritual Referee's salutation</p>
+   
+           <div class="checkbox1">
+              <div class="formgroup">
+                <input type="checkbox" id="bishop">
+                <label for="bishop">Bishop</label>
+              </div>
+              <div class="formgroup">
+                <input type="checkbox" id="pastor">
+                <label for="pastor">Pastor</label>
+              </div>
+              <div class="formgroup">
+                <input type="checkbox" id="provost">
+                <label for="provost">Provost</label>
+              </div>
+              <div class="formgroup">
+                <input type="checkbox" id="vicar">
+                <label for="vicar">Vicar</label>
+              </div>
+          </div>
+    22. Spriritual Referee's full name: &nbsp;
+    <label for="fname">First Name:</label>
+    <input type="text" size="10" id="fname" name="fname">&nbsp; &nbsp;
+    <label for="mname">Middle Name:</label>
+    <input type="text" size="10" id="mname" name="mname">&nbsp; &nbsp;
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" size="10" name="lname">&nbsp; &nbsp;
+    <br>
+    <label for="mobile">23. Mobile Number:</label>
+    <input type="tel" id="mobile" name="mobile" maxlength="10" size="10" class="number" value="0701 234 567">&nbsp; &nbsp;
+    <br><br>
+    <label for="email">24. Email:</label>
+    <input type="email" id="email" name="email" value="emailaddress@gmail.com">
+    <br>
+    
+  </fieldset>
+    <br><br>
+<fieldset>
+<legend><h2>C. EMPLOYMENT DETAILS:</h2></legend>
+25. <P1>Where are you employed currently?&nbsp;&nbsp;<input type="text" id="employer" name="employer"></P1>
+<br><br>
+26. <label for="nsalary">What's Your Current Net salary?</label>Ksh.<input type="number" class="number" min="5000" max="300000" id="nsalary" name="nsalary">&nbsp;&nbsp;Additional Benefits Received(If Any):&nbsp;<input type="number" id="benefits" class="number" name="benefits"></p2>
+<br><br>
+
+ 27. <label for="acceptable">What's Your Minimum Acceptable Salary?</label>&nbsp;&nbsp;<input type="number" id="acceptable" min="10000" max="300000" class="number" name="acceptable"
+  <br><br><br>
+
+ 28. <label for="why">Why Do You Want To Leave Your Current Employment?</label><input type="textarea" id="why" class="number" name="why">
+  <br><br>
+ 29. <label for="history">State your Employment History starting with current(On the table below)</label>
+ <br>
+ <div class="children">
+  <table>
+    <tr>
+      <td>TIME OF SERVICE(FROM__TO__)</td>
+      <td>NAME OF THE EMPLOYER</td>
+      <td>POSITION HELD</td>
+      
+    </tr>
+    <tr>
+      <td>1.</td>
+      <td></td>
+      <td></td>
+      
+    </tr>
+    <tr>
+      <td>2.</td>
+      <td></td>
+      <td></td>
+      
+    </tr>
+    <tr>
+      <td>3.</td>
+      <td></td>
+      <td></td>
+      
+    </tr>
+    <tr>
+      <td>4.</td>
+      <td></td>
+      <td></td>
+      
+    </tr>
+    <tr>
+      <td>5.</td>
+      <td></td>
+      <td></td>
+      
+    </tr>
+  </table>
+</div>
+<br>
+30. Indicate grades comfortably Taught, and Subjects taught.
+<br>
+<div class="children">
+  <table>
+    <tr>
+      <td>GRADE</td>
+      <td>SUBJECTS/LEARNING AREAS</td>
+      
+      
+    </tr>
+    <tr>
+      <td>1.</td>
+      <td></td>
+      
+      
+    </tr>
+    <tr>
+      <td>2.</td>
+      <td></td>
+      >
+      
+    </tr>
+    <tr>
+      <td>3.</td>
+      <td></td>
+      >
+      
+    </tr>
+    <tr>
+      <td>4.</td>
+      <td></td>
+      
+      
+    </tr>
+    <tr>
+      <td>5.</td>
+      <td></td>
+      
+      
+    </tr>
+  </table>
+</div>
+
+    31.When would you be available to start work, if offered employment?&nbsp;&nbsp;<input type="date" id="date" name="date" placeholder="dd/mm/yyyy" class="number" >
+  </fieldset>
+    <br><br>
+    <fieldset>
+    <legend><h2>C. EDUCATION BACKGROUND:</h2></legend>
+    <br><br>
+    32.State Qualifications, Year and Name Of Institution-Starting with thelatest:
+    <br><br>
+    <div class="children">
+      <table>
+        <tr>
+          <td>YEAR OF STUDY(FROM__TO__)</td>
+          <td>NAME OF THE INSTITUTION</td>
+          <td>COURSE (Eg P1,Bachelors of Arts etc)</td>
+          <td>QUALIFICATION/CERTIFICATION (Eg Degree,Diploma, certificate)</td>
+          
+        </tr>
+        <tr>
+          <td>1.</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          
+        </tr>
+        <tr>
+          <td>5.</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          
+        </tr>
+      </table>
+    </div>
+  </fieldset>
+  <br><br>
+  <fieldset>
+<legend><h2>D. SPIRITUAL</h2></legend>
+
+33.Affiliation: Church Name:&nbsp;&nbsp;<input type="text" id="church" name="church" placeholder="CITAM">
+<br><br>
+34.Church Location:&nbsp;&nbsp;<input type="text" id="location" name="location" placeholder="Buruburu">
+<br><br>
+35.Pastors Name:&nbsp;&nbsp;<input type="text" id="name" name="name" placeholder="Full Name"> 
+<br><br>
+36.Special responsibilities in your Church:&nbsp;&nbsp;<input type="text" id="role" name="role" placeholder="Sunday School teacher">
+<br><br>
+<p>37. Are you born again?</p>
+<div class="checkbox1">
+  <div class="formgroup">
+    <input type="checkbox" id="yes!">
+    <label for="yes!">Yes</label>
+  </div>
+  <div class="formgroup">
+    <input type="checkbox" id="no!">
+    <label for="no!">No</label>
+  </div>
+  </div>
+  
+<br><br>
+38.Your date of Salvation:&nbsp;<input type="date" id="date" name="date" class="number" placeholder="dd/mm/yyyy">
+<br><br>
+39.If question 37 above is YES, Please give a brief testimony of your Christian experience below:<br><br><textarea id="testimony" name="testimony" placeholder="Your brief testimony..."></textarea>
+  </fieldset>
+<br><br><br><br>
+
+
+<strong>I certify that the above information is true and correct to the best of my knowledge.</strong>
+<br><br>
+
+<strong>Signed:_____________________</strong>&nbsp;&nbsp;&nbsp;<strong>Date:&nbsp;</strong><input type="date" class="number" ><br><br><br>
+<fieldset>
+<legend> <h2>OFFICIAL USE ONLY: HR Manager:</h2></legend>
+<textarea id="official" name="official" placeholder="Reserved for the HR's comments"></textarea>
+</fieldset>
+<br><br>
+<div class="center">
+  All rights reserved
+    <br>
+  &copy;wycliffeupot.
+</div>
+<div class="center">
+  <header>
+    <div id="scrolltop"></div>
+  </header>
+  <footer>
+    <a href="#scrolltop">
+      <div class="scroll-arrow"></div>
+      <div id="scroll-text">Scroll to bottom</div>
+    </a>
+  </footer>
+</div>
+ <button class="submit">Submit</button>
+
+    </form>
+  </body>
+</html>
